@@ -7,3 +7,7 @@ test('reverseString function exists', () => {
 test("reverseString function exists", () => {
   expect(reverseString('hello')).toEqual('olleh');
 });
+
+test("reverseString function exists with Uppercase", () => {
+  expect(reverseString("Hello")).toEqual("olleh");
+});
