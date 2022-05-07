@@ -14,3 +14,7 @@ test("Adds 2 + 2 to Not equal 4", () => {
 // toBeDefined is the opposite of toBeUndefined
 // toBeTruthy matches anything that an if statement treats as true
 // toBeFalsy matches anything that an if statement treats as false
+
+test("Should be null", () => {
+  expect(functions.isNull).toBeNull();
+});
