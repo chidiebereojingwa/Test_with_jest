@@ -5,7 +5,7 @@
      // Loop through arr
      arr.forEach(val => {
          // Get last element 
-         const last = chunkArr[chunkedArr.length -1];
+         const last = chunkedArr[chunkedArr.length - 1];
 
          // Check if last length is equal to the chunk len
          if(!last || last.length === len){
