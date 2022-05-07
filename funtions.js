@@ -2,9 +2,9 @@ const functions = {
     add: (num1, num2) => num1 + num2,
     isNull: ()=> null,
     checkValue: (x) => x,
-    CreateUser: () => {
-        const user = { firstName: 'Brad' };
-        user['lastName'] = 'Chidiebere';
+    createUser: () => {
+        const user = { firstName: 'Chidiebere' };
+        user['lastName'] = 'Ojingwa';
         return user
     }
 }
